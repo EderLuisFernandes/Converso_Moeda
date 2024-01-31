@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    
+    <title>Converso de Moeda</title>
+</head>
+
+<body>
+    
+    <img src="./src/img/E.png" alt="img_mao" class="img_logo">
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select class="moedasParaConverter">
+                <option value="real">R$ Real brasileiro</option>
+                <option value="dolar"> US$ Dólar americano</option>
+                <option value="euro"> € Euro</option>
+                <option value="bitcoin">Bitcoin</option>
+                <option value="libra">£ Libra</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>Para</b>
+            <select class="MoedasConvertidas">
+                <option value="dolar"> US$ Dólar americano</option>
+                <option value="euro"> € Euro</option>
+                <option value="bitcoin">Bitcoin</option>
+                <option value="libra">£ Libra</option>
+            </select>
+        </label>
+        <label>
+            <b>Valores</b>
+            <input placeholder="R$ 00.00" id="value_real">
+
+        </label>
+        <button class="convert-button"> Converter </button>
+        <section>
+            <div>
+                <img src="./src/img/brasil 2.png" alt="" class="img_changer1">
+                <p>Real</p>
+                <p class="valor">R$ 00.00</p>
+            </div>
+            <img src="./src/img/seta dec.png" alt="">
+            <div>
+                <img src="./src/img/estados-unidos (1) 1.png" alt="" class="img_changer2">
+                <p id="mudar_nome_money">Dolar</p>
+                <p class="valorConvertido">US$ 00.00</p>
+            </div>
+        </section>
+    </main>
+</body>
+<!-- <script src="./script.js"></script> -->
+<script src="./script.js"></script>
+
+</html>
